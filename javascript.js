@@ -6,5 +6,5 @@ $('.apt-list-item').on('click', function() {
 
   $('#apartment-view').empty()
 
-  $('#apartment-view').css('background-image', `url(${aptImageUrl})`)
+  $('#apartment-view').css('background-image', `url($(aptImageUrl))`)
 })
